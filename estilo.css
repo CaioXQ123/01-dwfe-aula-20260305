@@ -42,7 +42,7 @@ nav {
 }
 
 main {
-  border: 0.1rem solid purple;
+  /* border: 0.1rem solid purple; */
   display: flex;
   flex: 1;
   padding: .5rem;
