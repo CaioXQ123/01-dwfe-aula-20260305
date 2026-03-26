@@ -47,6 +47,9 @@ main {
   display: flex;
   flex: 1;
   padding: .5rem;
+  gap: 1rem;
+  max-width: 65rem;
+  flex-wrap: wrap;
 }
 
 footer {
