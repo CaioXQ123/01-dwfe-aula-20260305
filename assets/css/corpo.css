@@ -1,0 +1,22 @@
+section {
+  /* border: 0.1rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+  /* border: 0.1rem solid orangered; */
+    width: 8rem;
+    background-color: #eee;
+    padding: .5rem;
+}
+
+.container {
+  /* border: 0.1rem solid purple; */
+    display: flex;
+    flex: 1;
+    padding: .5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: left;
+}

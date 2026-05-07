@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Minha Primeira Pagina
+    </title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <script src="https://kit.fontawesome.com/08b476a59a.js" crossorigin="anonymous"></script>
+    <script src="assets/js/menu-hamburguer.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">C</div>
+        <h1 class="titulo">Meu site de notícias</h1>
+        <div class="menu-hamburguer" onclick="VisuMenuLateral();">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <ul class="menu-lateral">
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-newspaper"></i>
+                            </div>
+                            <div class="rotulo">Notícias</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="rotulo">Mensagens</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="rotulo">Perfil</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-arrow-right-from-bracket">                                    
+                                </i>
+                            </div>
+                            <div class="rotulo">Logout</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main id="noticias" class="container">
+            <div class="cartao">
+                <img src="./assets/img/mobilidade.png" alt="" class="imagem-do-cartao">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-da-noticia">Mobilidade urbana em BH</h1>
+                    <div class="classificacao-da-noticia">
+                        <div class="categoria-da-noticia">Transporte</div>
+                        <div class="data-da-noticia">12/11/2007</div>
+                    </div>
+                    <div class="descricao-da-noticia">Prefeitura lança novo plano de mobilidade urbana em BH</div>
+                    <div class="autoria-da-noticia">Ana Maria Silva</div>
+                </section>
+                <a href="#" class="botao-do-cartao">Ler mais</a>
+            </div>
+            <div class="cartao">
+                <img src="./assets/img/tecnologia.png" alt="" class="imagem-do-cartao">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-da-noticia">Tecnologia 6G no futuro</h1>
+                    <div class="classificacao-da-noticia">
+                        <div class="categoria-da-noticia">Tecnologia</div>
+                        <div class="data-da-noticia">11/11/2007</div>
+                    </div>
+                    <div class="descricao-da-noticia">Tecnologia 6G é a Próxima Geração de Redes Móveis.</div>
+                    <div class="autoria-da-noticia">Bruno Costa</div>
+                </section>
+                <a href="#" class="botao-do-cartao">Ler mais</a>
+            </div>
+            <div class="cartao">
+                <img src="./assets/img/musica.png" alt="" class="imagem-do-cartao">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-da-noticia">Festival de Música de Belo Horizonte</h1>
+                    <div class="classificacao-da-noticia">
+                        <div class="categoria-da-noticia">Cultura</div>
+                        <div class="data-da-noticia">10/11/2007</div>
+                    </div>
+                    <div class="descricao-da-noticia">Belo Horizonte tem vários festivais de Música</div>
+                    <div class="autoria-da-noticia">Carla Vieira</div>
+                </section>
+                <a href="#" class="botao-do-cartao">Ler mais</a>
+            </div>
+            <div class="cartao">
+                <img src="./assets/img/gastronomia.png" alt="" class="imagem-do-cartao">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-da-noticia">Mobilidade urbana em BH</h1>
+                    <div class="classificacao-da-noticia">
+                        <div class="categoria-da-noticia">Transporte</div>
+                        <div class="data-da-noticia">12/11/2007</div>
+                    </div>
+                    <div class="descricao-da-noticia">Prefeitura lança novo plano de mobilidade urbana em BH</div>
+                    <div class="autoria-da-noticia">Ana Maria Silva</div>
+                </section>
+                <a href="#" class="botao-do-cartao">Ler mais</a>
+            </div>
+        </main>
+    </section>
+    <footer>&copy; Rodapé 👌</footer>
+</body>
+
+</html>

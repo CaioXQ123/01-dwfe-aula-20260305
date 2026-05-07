@@ -1,0 +1,19 @@
+@import url("cabecalho.css");
+@import url("painel.css");
+
+
+*{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    color: #5e5e5e;
+}

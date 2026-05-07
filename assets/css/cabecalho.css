@@ -1,13 +1,13 @@
 header {
   /* border: 0.1rem solid red; */
-  background-color: #252323;
-  color: #ccc;
-  height: 4rem;
-  padding: 1rem;
-  display: flex;
-  /* justify-content: center; */
-  align-content: center;
-  align-items: center;
+    background-color: #252323;
+    color: #eee;
+    height: 4rem;
+    padding: .5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
 }
 .logo{
     border: .1rem rgb(255, 0, 0) solid;
