@@ -40,7 +40,7 @@ function apresentarNoticias(){
             <p class="descricao-da-noticia">${noticia.descricao}</p>
             <p class="autoria-da-noticia">${noticia.autor}</p>
         </section>
-        <a class="botao-do-cartao" href="./detalhes.html?id=${noticia.id}"> Leia mais </a>
+        <a class="botao-do-cartao" href="./detalhe.html?id=${noticia.id}"> Ler mais </a>
 `;
 
 container_das_noticias.appendChild(cartao);
